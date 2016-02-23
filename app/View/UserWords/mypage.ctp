@@ -52,7 +52,7 @@
           <div style="font-size:120%; margin-bottom:5px;"><?php echo $userword['Word']['word']?></div>
           <div class="comment"><p><?php echo $userword['UserWord']['comment']; ?></p></div>
           <form action="/wordPot/favorite_user_words/add/<?php echo $userword['UserWord']['id']; ?>">
-          <input class="btn" style="background-color: #ffbd66;" type="button" value="★">
+          <!--<input class="btn" style="background-color: #ffbd66;" type="button" value="★"> -->
           </form>
         <input type="hidden" name="data[UserWord][rank]" value="0">
       </div>

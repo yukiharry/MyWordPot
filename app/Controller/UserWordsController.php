@@ -24,7 +24,7 @@ class UserWordsController extends AppController{
 		$num++;
 		}
 		
-		debug($userwords);
+		//debug($userwords);
 		$this->set('userwords',$userwords);
 	}
 
@@ -35,7 +35,7 @@ class UserWordsController extends AppController{
             //$this->UserWord->create();
         	//word,commentがあるとき表示されるif文を作る
             foreach ($this->request->data as $key => $AddWord) {
-            	if(($AddWord['Word']['word'] !== '') && ($AddWord['UserWord']['comment'] !== '')) {
+            	if($AddWord['Word']['word'] !== '' /*&& ($AddWord['UserWord']['comment'] !== '')*/) {
         			$searchword = $this->Word->find('first', array('conditions'=>array('word' => $AddWord['Word']['word'])));
 	            	//入力されたwordがあるかどうかを確かめる
 	            	if (empty($searchword)){

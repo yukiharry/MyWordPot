@@ -50,9 +50,7 @@
             <a href="/wordPot/user_profiles/edit?id=<?php echo $user_profile['UserProfile']['user_id']; ?>" style="font-size:14px; margin-right: 18px;" class="headanchor nav navbar-nav">プロフィール編集</a>
           </li>
 
-          <li class="headlink">
-            <a href="/wordPot/favorite_user_words/index" style="font-size:14px; margin-right: 18px;" class="headanchor nav navbar-nav">お気に入り</a>
-          </li>
+         
 
           <li class="headlink">
             <a href="/wordPot/words/searchindex" style="font-size:14px; margin-right: 18px;" class="headanchor nav navbar-nav">検索</a>

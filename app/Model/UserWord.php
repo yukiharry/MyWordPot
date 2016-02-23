@@ -15,9 +15,9 @@ class UserWord extends AppModel{
 	// 	return $data;
 	// }
 
-    public $validate = array('rank' => array('rule' => 'notEmpty'),
-    						'word' => array('rule' => 'notEmpty'),
-    						'comment' => array('rule' => 'notEmpty'));
+    public $validate = array('rank' => array('rule' => 'notBlank'),
+    						'word' => array('rule' => 'notBlank'),
+    						/*'comment' => array('rule' => 'notBlank')*/);
 
 	public $belongsTo = array(
 		'Word' => array(

@@ -12,19 +12,10 @@ $(function(){
   <div>
     <button class="btn" style="background-color: #ffbd66;" onclick="location.href='/wordPot/user_words/add'">まとめて追加</button>
   </div>
-  <div style="border: 1px solid #c0c0c0; margin: 15px 30px 30px 0px; padding:15px; border-radius:15px 15px; background-color:white;">
-    <div>おてがる追加</div>
-    <form method="post">
-      <div class="rateit1" data-rateit-resetable="false"  data-rateit-ispreset="true" data-rateit-min="0" data-rateit-max="3" data-rateit-step="1" id="rate0"></div>
-      <input type="text" placeholder="英単語" name="data[Word][word]">
-      <textarea placeholder="メモ" name="data[UserWord][comment]" cols="80" style="margin-left:20px;　border: 1px #c0c0c0;"></textarea>
-      <input class="btn" type="submit" value="追加" style="margin-left:20px; background-color: #ffbd66;">
-    </form>
-  </div>
+  
 
 
-      <table class="table" style="background-color:white;">
-      <tabl>
+      <table class="table" style="background-color:white;margin-top:10px;" >
         <tr>
           <th>No.</th>
           <th>重要度</th>
